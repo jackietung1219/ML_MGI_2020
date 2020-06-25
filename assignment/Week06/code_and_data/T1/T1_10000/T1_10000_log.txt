@@ -1,0 +1,51 @@
+T1_RFr_10000:
+RFr height cross_val: 2.2988502979278564 sec
+RFr height test_score: [0.99988585 0.99988335 0.99989282 0.99989252 0.99986882]
+RFr height test_score: 0.9998846722301671
+RFr distance cross_val: 1.9797039031982422 sec
+RFr distance test_score: [0.99977876 0.99977646 0.99981514 0.99977807 0.9998012 ]
+RFr distance test_score: 0.9997899248365666
+
+T1_SVr_10000:
+SVr height cross_val: 92.61825466156006 sec
+SVr height test_score: [0.99922734 0.99974869 0.99976963 0.9997936  0.99979417]
+SVr height test_score: 0.9996666874278759
+SVr distance cross_val: 154.98942112922668 sec
+SVr distance test_score: [0.99931396 0.99955356 0.99938299 0.99930989 0.9996898 ]
+SVr distance test_score: 0.9994500401511959
+
+T1_MLPr_3_10000:
+MLPr_3_r height cross_val: 595.2318279743195 sec
+MLPr_3 height test_score: [0.9989881  0.99886549 0.98944222 0.99631857 0.99952458]   
+MLPr_3 height test_score: 0.9966277919121875
+MLPr_3_r distance cross_val: 993.4995121955872 sec
+MLPr_3 distance test_score: [0.99644541 0.99782423 0.99944101 0.99811278 0.9974251 ] 
+MLPr_3 distance test_score: 0.9978497085266778
+*14_ ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+
+T1_MLPr_i3_10000:
+MLPr_i3_r height cross_val: 909.9167439937592 sec
+MLPr_i3_h height test_score: [0.99886395 0.99918727 0.99890468 0.9978896  0.99930294]   
+MLPr_i3_h height test_score: 0.99882968874263
+MLPr_i3_r distance cross_val: 1041.7665178775787 sec
+MLPr_i3_r distance test_score: [0.99724306 0.99837401 0.99768439 0.99611349 0.99794305] 
+MLPr_i3_r distance test_score: 0.9974716009253104
+*08_ ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+
+T1_MLPr_i5_10000:
+MLPr_i5 height cross_val: 1161.0156428813934 sec
+MLPr_i5_h height test_score: [0.99789958 0.99894851 0.9992174  0.99751551 0.99902531]
+MLPr_i5_h height test_score: 0.9985212647204268
+MLPr_i5 distance cross_val: 1081.8008790016174 sec
+MLPr_i5_r distance test_score: [0.99775436 0.99614237 0.99511936 0.99633093 0.99650206]
+MLPr_i5_r distance test_score: 0.99636981694859
+*00_ ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+
+T1_MLPr_i7_10000:
+MLPr_i7 height cross_val: 1836.5076785087585 sec
+MLPr_i7_h height test_score: [0.99912773 0.99811092 0.99888773 0.99848948 0.99929757]
+MLPr_i7_h height test_score: 0.9987826860004618
+MLPr_i7 distance cross_val: 1966.8651599884033 sec
+MLPr_i7_r distance test_score: [0.99851341 0.9977633  0.99813468 0.99844495 0.99721736]
+MLPr_i7_r distance test_score: 0.9980147377637113
+*00_ ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.

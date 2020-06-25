@@ -1,0 +1,21 @@
+TrainData
+1. x
+2. y
+3. z
+4. Intensity
+5. order
+6. original type
+7. training type
+8. training binary type
+9. training binary type
+
+TestData
+1. x
+2. y
+3. z
+4. Intensity
+5. order
+6. original type
+7. note
+
+

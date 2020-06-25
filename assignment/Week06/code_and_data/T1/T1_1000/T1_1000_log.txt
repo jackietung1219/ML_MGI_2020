@@ -1,0 +1,54 @@
+T1_RFr_1000:
+RFr height cross_val: 1.2247233390808105 sec
+RFr height test_score: [0.99907528 0.99821051 0.99817917 0.99810935 0.99838172] 
+RFr height test_score: 0.9983912062332128
+RFr distance cross_val: 0.9115617275238037 sec
+RFr distance test_score: [0.99703543 0.99325959 0.99662831 0.9948762  0.99723959]
+RFr distance test_score: 0.9958078220611387
+*10_UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+
+T1_SVr_1000:
+SVr height cross_val: 1.2815709114074707 sec
+SVr height test_score: [0.9005019  0.93399212 0.91345734 0.79470859 0.90329532]
+SVr height test_score: 0.8891910536156595
+SVr distance cross_val: 0.826789140701294 sec
+SVr distance test_score: [0.70807874 0.75378858 0.82603542 0.78774424 0.74003019]
+SVr distance test_score: 0.7631354343090091
+*10_UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+
+T1_MLPr_3_1000:
+MLPr_3_r height cross_val: 113.68306565284729 sec
+MLPr_3 height test_score: [0.9748605  0.93242745 0.98472004 0.99688511 0.95789886]   
+MLPr_3 height test_score: 0.9693583927338185
+MLPr_3_r distance cross_val: 172.04708003997803 sec
+MLPr_3 distance test_score: [0.95042859 0.94714063 0.95893979 0.92802037 0.96389417] 
+MLPr_3 distance test_score: 0.9496847129424417
+*10_UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+*10_ ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+
+T1_MLPr_i3_1000:
+MLPr_i3_r height cross_val: 133.35898184776306 sec
+MLPr_i3_h height test_score: [0.99370104 0.98871669 0.99203654 0.99548624 0.99505624] 
+MLPr_i3_h height test_score: 0.9929993509420487
+MLPr_i3_r distance cross_val: 122.06869125366211 sec
+MLPr_i3_r distance test_score: [0.98059377 0.96455087 0.98355294 0.97862832 0.97630865]
+MLPr_i3_r distance test_score: 0.9767269078670486
+*ValueError: Expected n_neighbors <= n_samples,  but n_samples = 1, n_neighbors = 6
+
+T1_MLPr_i5_1000:
+MLPr_i5 height cross_val: 1056.3523898124695 sec
+MLPr_i5_h height test_score: [0.99886217 0.99037355 0.99925496 0.99775953 0.99917187] 
+MLPr_i5_h height test_score: 0.9970844190999095
+MLPr_i5 distance cross_val: 901.6432173252106 sec
+MLPr_i5_r distance test_score: [0.9984008  0.99746372 0.99668738 0.99787126 0.99516266] 
+MLPr_i5_r distance test_score: 0.9971171644851248
+*ValueError: Expected n_neighbors <= n_samples,  but n_samples = 1, n_neighbors = 6
+
+T1_MLPr_i7_1000:
+MLPr_i7 height cross_val: 1943.1660587787628 sec
+MLPr_i7_h height test_score: [0.99796716 0.99740599 0.99739096 0.99929035 0.99798516]       
+MLPr_i7_h height test_score: 0.9980079249821264
+MLPr_i7 distance cross_val: 1663.768835067749 sec
+MLPr_i7_r distance test_score: [0.99687182 0.99274812 0.99878118 0.99525462 0.98990658]     
+MLPr_i7_r distance test_score: 0.9947124626366828
+*ValueError: Expected n_neighbors <= n_samples,  but n_samples = 1, n_neighbors = 6
